@@ -1,6 +1,35 @@
 .container_articles{
+  width: 100%;
   margin-top: 30px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.articles_main{
+  flex: 6;
+  display: flex;
+  justify-content: center;
+}
+
+.articles_others{
+  flex: 4;
+}
+
+@media screen and (max-width: 720px) {
+  .container_articles{
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .articles_main{
+    flex: 1;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
 }
