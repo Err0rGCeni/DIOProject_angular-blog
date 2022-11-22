@@ -13,11 +13,6 @@
   transition: 0.5s;
 }
 
-.container_menu-title > h1:hover {
-  color: lime;
-  transition: 0.5s;
-}
-
 .container_menu-title > hr {
   margin-top: 20px;
   margin-bottom: 5px;
